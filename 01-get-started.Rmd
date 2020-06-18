@@ -14,11 +14,9 @@ Pourquoi travailler avec les projets Rstudio plutôt que les scripts R ?
 
 `Packrat` est intégré à Rstudio. Pour activer `packrat` sur un projet, aller dans `Tools/Project Options->Packrat`
 
-[En savoir plus sur Packrat](https://www.rstudio.com/resources/webinars/managing-package-dependencies-in-r-with-packrat/)
-
 ![](pic/creerprojet4.png){#id .class width=500}
 
-`renv` est plus récent que `Packrat`, il n'est pas encore intégré à Rstudio mais apporte des améliorations subsentielles par rapport à son prédécesseur. 
+`renv` est plus récent que `Packrat` et est amené à le remplacer, il n'est pas encore intégré à Rstudio mais apporte des améliorations subsentielles par rapport à son prédécesseur. 
 [En savoir plus sur renv](https://rstudio.github.io/renv/)
 
 - Cela permet de se forcer à travailler en mode projet : on intègre à un seul endroit tous ce qui est lié à ce projet : données brutes, données retravaillées, scripts, illustrations, documentations, publications... et donc y compris packages avec `packrat` ou `renv`.
